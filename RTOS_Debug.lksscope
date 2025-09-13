@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lksscope appVersion="v1.3.9">
+    <params>
+        <param value="0" name="linkType"/>
+        <param value="5000000" name="jClock"/>
+        <param value="1000000" name="uClock"/>
+        <param value="" name="commPort"/>
+        <param value="9600" name="commBaud"/>
+        <param value="" name="bleName"/>
+        <param value="" name="localIP"/>
+        <param value="" name="localPort"/>
+        <param value="" name="remoteIP"/>
+        <param value="" name="remotePort"/>
+        <param value="20000000" name="rttAddr"/>
+        <param value="1000" name="rttFreq"/>
+        <param value="1" name="sampleInterval"/>
+        <param value="20" name="uiInterval"/>
+        <param value="20" name="maxPoint"/>
+        <param value="1" name="checkAxf"/>
+    </params>
+    <layouts>
+        <param value="AdnQywADAAD/////////9QAADwAAAAg0AAAFTwAAArUAAAmwAAAFfQAAAAACAAAADwAAAAAAAAAAIgAADv8AAAgz" name="geometry"/>
+        <param value="AAAA/wAAAAD9AAAAAgAAAAEAAAISAAAFZfwCAAAABfsAAAAMAFIAVABUVH1O5IhMAAAAAAD/////AAAAAAAAAAD7AAAACgBSAFQAVGVwY24AAAAAAP////8AAAE9AP////sAAAAIdTVnOmOnUjYAAAAAAP////8AAACxAP////sAAAAIj9CITGXlX9cAAAAAAP////8AAACBAP////sAAAAGZXBQPAAwAQAAAFYAAAVlAAAAAAAAAAAAAAACAAAKAAAAAKz8AQAAAAH7AAAABmbyfr8AMAMAAAJTAAAApQAABXkAAATIAAAPAAAAB5UAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAwAAAA4AdABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAEgB0AG8AbwBsAEIAYQByAF8AMgEAAAEU/////wAAAAAAAAAAAAAAFgB0AG8AbwBsAEIAYQByAEwAbwBnAG8BAAADi/////8AAAAAAAAAAA==" name="state"/>
+    </layouts>
+    <tabs curPage="0">
+        <tab geometry="AdnQywADAAAAAAAAAAAAAAAACygAAAdhAAAAAAAAAAD//////////wAAAAAAAAAADwAAAAAAAAAAAAAACygAAAdh" title="标签页0" checked="1" state="AAAA/wAAAAD9AAAAAgAAAAAAAAReAAAHYvwCAAAAAfsAAAAGZvJ+vwAwAQAAAAAAAAdiAAAASAD///8AAAABAAAGxwAAB2L8AgAAAAL7AAAABmVwUDwAMAEAAAAAAAAGFAAAAIEA////+wAAAAwAUgBUAFRUfU7kiEwBAAAGGAAAAUoAAAESAP///wAAAAAAAAdiAAAABAAAAAQAAAAIAAAACPwAAAAA"/>
+    </tabs>
+    <forms>
+        <form type="0" title="Form"/>
+        <form lv-width="150,100,100,100,100,100,100,100,100,100" type="1" title="自定义参数"/>
+        <form lv-width="252,347,246,100,100,100,100,100,100,269" type="2" mapFile="./OBJ/LED.axf" title="导入参数"/>
+        <form floating="0" type="3" title="运行日志" page="-1" visible="0"/>
+        <form floating="0" syncFilePath="" type="4" sync2File="0" title="RTT命令行" encode="GBK" page="0" checkTStamp="0" visible="1"/>
+        <form floating="0" trigName="" xCount="1000" type="5" trigValue="0" subMode="0" xTag="0" lineStyle="1" scrollType="0" trigType="0" title="RTT数据" min="-500" max="500" page="-1" visible="0" autoRange="1" scatterStyle="1"/>
+        <form floating="0" lv-width="150,100,100,100,100" type="12" title="电机控制" page="-1" visible="0">
+            <var lower="0" desc="速度设定" upper="100" name="" step="1"/>
+            <var lower="0" desc="电流设定" upper="100" name="" step="1"/>
+            <var lower="0" desc="功率设定" upper="100" name="" step="1"/>
+            <var lower="0" desc="电机启停" upper="1" name="" step="1"/>
+        </form>
+        <form floating="0" type="6" title="Form" page="-1" visible="0"/>
+        <form floating="0" lv-width="301,520,100,100,100,100,100,299,251,120,100,100" type="7" title="数值0" lv-hidden="" page="0" visible="1">
+            <var interval="1" showType="Hex" desc="test_tskTCB1->pxTopOfStack" unit="" formula="" addr="0x20000074" name="test_tskTCB1->pxTopOfStack" color=""/>
+            <var interval="1" showType="Hex" desc="test_tskTCB1->xStateListItem" unit="" formula="" addr="0x20000074" name="test_tskTCB1->xStateListItem" color=""/>
+            <var interval="1" showType="Hex" desc="test_tskTCB1->xEventListItem" unit="" formula="" addr="0x20000074" name="test_tskTCB1->xEventListItem" color=""/>
+            <var interval="1" showType="Hex" desc="test_tskTCB1->uxPriority" unit="" formula="" addr="0x20000074" name="test_tskTCB1->uxPriority" color=""/>
+            <var interval="1" showType="Hex" desc="test_tskTCB1->pxStack" unit="" formula="" addr="0x20000074" name="test_tskTCB1->pxStack" color=""/>
+            <var interval="1" showType="Array-Signed8" desc="test_tskTCB1->pcTaskName" unit="" formula="" addr="0x20000074" name="test_tskTCB1->pcTaskName" color=""/>
+            <var interval="1" showType="Hex" desc="test_tskTCB1->uxTCBNumber" unit="" formula="" addr="0x20000074" name="test_tskTCB1->uxTCBNumber" color=""/>
+            <var interval="1" showType="Hex" desc="test_tskTCB1->uxTaskNumber" unit="" formula="" addr="0x20000074" name="test_tskTCB1->uxTaskNumber" color=""/>
+            <var interval="1" showType="Hex" desc="test_tskTCB1->uxBasePriority" unit="" formula="" addr="0x20000074" name="test_tskTCB1->uxBasePriority" color=""/>
+            <var interval="1" showType="Hex" desc="test_tskTCB1->uxMutexesHeld" unit="" formula="" addr="0x20000074" name="test_tskTCB1->uxMutexesHeld" color=""/>
+            <var interval="1" showType="Hex" desc="test_tskTCB1->ulNotifiedValue" unit="" formula="" addr="0x20000074" name="test_tskTCB1->ulNotifiedValue" color=""/>
+            <var interval="1" showType="Hex" desc="test_tskTCB1->ucNotifyState" unit="" formula="" addr="0x20000074" name="test_tskTCB1->ucNotifyState" color=""/>
+        </form>
+        <form trigValue="0" refName="" refType="0" xCount="1000" type="8" subMode="0" max="500" page="0" visible="1" min="-500" filterType="1" xTag="0" scatterStyle="1" trigType="0" scrollType="0" title="曲线0" autoRange="1" floating="0" lineStyle="1" refValue="0" trigName="">
+            <var subPlot="0" desc="test_tskTCB1->pxTopOfStack" name="test_tskTCB1->pxTopOfStack" color="#00ff00"/>
+            <var subPlot="0" desc="test_tskTCB1->xStateListItem" name="test_tskTCB1->xStateListItem" color="#00ffff"/>
+            <var subPlot="0" desc="test_tskTCB1->uxPriority" name="test_tskTCB1->uxPriority" color="#ff00ff"/>
+            <var subPlot="0" desc="test_tskTCB1->pxStack" name="test_tskTCB1->pxStack" color="#ffff00"/>
+            <var subPlot="0" desc="test_tskTCB1->pcTaskName" name="test_tskTCB1->pcTaskName" color="#800000"/>
+            <var subPlot="0" desc="test_tskTCB1->uxTCBNumber" name="test_tskTCB1->uxTCBNumber" color="#008000"/>
+            <var subPlot="0" desc="test_tskTCB1->uxTaskNumber" name="test_tskTCB1->uxTaskNumber" color="#000080"/>
+            <var subPlot="0" desc="test_tskTCB1->uxBasePriority" name="test_tskTCB1->uxBasePriority" color="#008080"/>
+            <var subPlot="0" desc="test_tskTCB1->uxMutexesHeld" name="test_tskTCB1->uxMutexesHeld" color="#800080"/>
+            <var subPlot="0" desc="test_tskTCB1->ulNotifiedValue" name="test_tskTCB1->ulNotifiedValue" color="#808000"/>
+            <var subPlot="0" desc="test_tskTCB1->ucNotifyState" name="test_tskTCB1->ucNotifyState" color="#ff0000"/>
+        </form>
+    </forms>
+</lksscope>
