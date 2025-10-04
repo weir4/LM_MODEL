@@ -51,14 +51,14 @@ TaskHandle_t DEBUGTask_Handler;
 //任务函数
 void debug_task(void *pvParameters);
 
-
 int main(void)
 {
     HAL_Init();                     //初始化HAL库   
     Stm32_Clock_Init(360,25,2,8);   //设置时钟,180Mhz
 	  delay_init(180);                //初始化延时函数
-    LED_Init();                     //初始化LED 
+    LED_Init();                     //初始化LED
     uart_init(115200);              //初始化串口
+	  
     //创建开始任务
     xTaskCreate((TaskFunction_t )start_task,            //任务函数
                 (const char*    )"start_task",          //任务名称
@@ -144,8 +144,8 @@ void debug_task(void *pvParameters)
 {
   	while(1)
   	{
-		vTaskDelay(200);
-		debugs_test( &LED0Task_Handler ,&LED1Task_Handler ,&FLOATTask_Handler);
+		 vTaskDelay(200);
+		 debugs_test( &LED0Task_Handler ,&LED1Task_Handler ,&FLOATTask_Handler);
   	}
 }
 

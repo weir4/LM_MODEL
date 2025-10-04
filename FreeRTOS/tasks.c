@@ -6325,6 +6325,12 @@ static void prvAddCurrentTaskToDelayedList( TickType_t xTicksToWait, const BaseT
     #endif /* INCLUDE_vTaskSuspend */
 }
 
+
+#ifdef FREERTOS_MODULE_TEST
+	#include "tasks_test_access_functions.h"
+#endif
+
+
 TCB_t *test_tskTCB1 = NULL;
 TCB_t *test_tsKTCB2 = NULL; 
 TCB_t *test_tsKTCB3 = NULL;
@@ -6337,8 +6343,4 @@ void debugs_test( TaskHandle_t * pxCreatedTask_Debug1 ,TaskHandle_t * pxCreatedT
   test_tsKTCB3 = (tskTCB*)pxCreatedTask_Debug3;
 }
 
-
-#ifdef FREERTOS_MODULE_TEST
-	#include "tasks_test_access_functions.h"
-#endif
 
