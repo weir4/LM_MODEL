@@ -883,26 +883,6 @@
               <FileType>1</FileType>
               <FilePath>..\LM_Component\Algorithm_Component\src\lm_16crc.c</FilePath>
             </File>
-            <File>
-              <FileName>lm_485.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LM_Component\Peripheral_Component\src\lm_485.c</FilePath>
-            </File>
-            <File>
-              <FileName>lm_adc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LM_Component\Peripheral_Component\src\lm_adc.c</FilePath>
-            </File>
-            <File>
-              <FileName>lm_dma.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LM_Component\Peripheral_Component\src\lm_dma.c</FilePath>
-            </File>
-            <File>
-              <FileName>lm_gpio.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LM_Component\Peripheral_Component\src\lm_gpio.c</FilePath>
-            </File>
           </Files>
         </Group>
       </Groups>
