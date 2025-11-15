@@ -903,11 +903,6 @@
               <FileType>1</FileType>
               <FilePath>..\LM_Component\Peripheral_Component\src\lm_gpio.c</FilePath>
             </File>
-            <File>
-              <FileName>lm_timer.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LM_Component\Peripheral_Component\src\lm_timer.c</FilePath>
-            </File>
           </Files>
         </Group>
       </Groups>
